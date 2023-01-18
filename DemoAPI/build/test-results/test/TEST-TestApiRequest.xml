@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestApiRequest" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-01-18T14:57:58" hostname="4353JK3" time="3.33">
+  <properties/>
+  <testcase name="AddAPet()" classname="TestApiRequest" time="2.051"/>
+  <testcase name="GetAPet()" classname="TestApiRequest" time="0.652"/>
+  <testcase name="UpdateAPet()" classname="TestApiRequest" time="0.626"/>
+  <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Wed, 18 Jan 2023 14:58:00 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 150,
+    "category": {
+        "id": 1,
+        "name": "dog"
+    },
+    "name": "Thanos",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 150,
+            "name": "Thanos"
+        }
+    ],
+    "status": "available"
+}
+HTTP/1.1 200 OK
+Date: Wed, 18 Jan 2023 14:58:01 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 145,
+    "category": {
+        "id": 0,
+        "name": "cats"
+    },
+    "name": "michifu",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 1,
+            "name": "michifu"
+        }
+    ],
+    "status": "sold"
+}
+HTTP/1.1 200 OK
+Date: Wed, 18 Jan 2023 14:58:02 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization
+Server: Jetty(9.2.9.v20150224)
+
+{
+    "id": 145,
+    "category": {
+        "id": 0,
+        "name": "cats"
+    },
+    "name": "michifu",
+    "photoUrls": [
+        "string"
+    ],
+    "tags": [
+        {
+            "id": 1,
+            "name": "michifu"
+        }
+    ],
+    "status": "available"
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
